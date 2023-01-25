@@ -1,4 +1,4 @@
-# sort the list and find min and max (good)
+# sort the list and find min and max
 # add the min age and max age back to the list again
 # find the median age
 # find the average
