@@ -10,8 +10,8 @@ for i in range(0, students):  # for loop take inputs from user in lbs through co
 
 L2 = []
 for i in range(0, students):  # for loop to convert weights from lbs to kgs
-    kgs = 0.453592 * L1[i]  # multiplication of 0.453592 to L1(lbs) will produce L2(kgs)
-    L2.append(round(kgs, 2))  # appending the calculation to the list
+    kgs = 0.453592 * L1[i]  # calculate kgs
+    L2.append(round(kgs, 2))  # append the calculation
 
 print("\nweights of students in lbs: ", L1)  # printing weights in lbs
 print("\nweights of students in kilograms: ", L2)  # printing weights in kgs
