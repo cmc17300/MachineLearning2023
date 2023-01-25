@@ -1,9 +1,9 @@
-# Write a program, which reads weights (lbs.) of N students into a list and convert these weights to
+# Write a program, which reads weights (lbs) of N students into a list and convert these weights to
 # kilograms in a separate list using Loop. N: No of students (Read input from user)
 
 L1 = []
-students = int(input("how many students?: "))  # taking num of students from the user
-print("\nenter student weights in lbs:")  # printing message
+students = int(input("how many students?: "))  # prompt user to enter num of students
+print("\nenter student weights in lbs:")  # prompt user to enter weights
 for i in range(0, students):  # for loop take inputs from user in lbs through console
     lbs = int(input())
     L1.append(lbs)
